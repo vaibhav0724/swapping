@@ -1,0 +1,30 @@
+#include<stdio.h>
+#include<conio.h>
+Void main()
+{
+int c;
+clrscr();
+printf("enter the choice");
+Scand("%d",&c);
+Switch(c)
+{
+Case 1:
+Printf("food item pizza\n price Rs 239\n");
+break;
+Case 2:
+Printf("food item burger\n price Rs 129\n");
+break;
+Case 3:
+Printf("food item pasta\n price Rs 179\n");
+break;
+Case 4:
+Printf("food item french fries\n price Rs 99\n");
+break;
+Case 5:
+Printf("food item sandwich\n price Rs 149\n");
+break;
+Default:
+Printf("invalid selection");
+}
+getch();
+}
